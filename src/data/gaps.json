@@ -1,0 +1,27 @@
+[
+  {
+    "id": "gap-universe",
+    "title": "Company coverage is a curated seed set",
+    "detail": "11 sourced company records versus 2,117 GCCs in India. The set shows the evidence method; it is not a representative sample of the market, and counts by city or sector should not be read as market shares."
+  },
+  {
+    "id": "gap-costs",
+    "title": "No comparable operating-cost data",
+    "detail": "Rents, fully loaded compensation and utilities by city were not found in sources Atlas can cite, so Location Compare shows 'Data unavailable' for operating costs."
+  },
+  {
+    "id": "gap-official-policy",
+    "title": "Official incentive text missing for three states",
+    "detail": "Official policy documents for Karnataka, Telangana and Tamil Nadu were not located (Karnataka's IT department site blocks automated access; Telangana's GCC policy is reported as a draft). Their incentive records are labelled unverified. Maharashtra's is the official GR."
+  },
+  {
+    "id": "gap-city-counts",
+    "title": "City-level GCC counts and sector mix",
+    "detail": "Zinnov's landing page does not expose city or sector cuts, and the only available Chennai GCC count cites no underlying data. City depth relies on secondary sources relaying JLL and CBRE."
+  },
+  {
+    "id": "gap-live",
+    "title": "Static snapshot, no live feed",
+    "detail": "All records are a snapshot read on 11 Oct 2026. Nothing in the app updates automatically, and 'recent activity' means recent source dates, not live news."
+  }
+]

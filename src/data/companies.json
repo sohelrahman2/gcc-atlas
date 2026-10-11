@@ -1,0 +1,301 @@
+[
+  {
+    "id": "eli-lilly",
+    "name": "Eli Lilly",
+    "parent": "Eli Lilly",
+    "gccEntity": "Lilly Capability Centre India (LCCI)",
+    "sector": "Pharma & Life Sciences",
+    "indiaLocations": [
+      {
+        "city": "Hyderabad",
+        "cityId": "hyderabad",
+        "detail": "New capability centre announced Jan 2025; expected operational mid-2025",
+        "stage": "announced"
+      },
+      {
+        "city": "Bengaluru",
+        "cityId": "bengaluru",
+        "detail": "Existing Lilly capability centre referenced in the announcement",
+        "stage": "existing"
+      }
+    ],
+    "functions": ["Technology & Engineering", "Data, AI & Analytics"],
+    "stage": "announced",
+    "stageNote": "Announced January 2025; operational status after the planned mid-2025 start was not verified.",
+    "recordDate": "2025-01-10",
+    "headcount": "Recruiting 1,000–1,500 people",
+    "investment": null,
+    "summary": "A second India capability centre, in Hyderabad, adding to Lilly's existing Bengaluru centre, focused on automation, AI, software product engineering and cloud.",
+    "caveats": ["Operational status after the planned mid-2025 start was not checked."],
+    "evidenceIds": ["EV-020"]
+  },
+  {
+    "id": "vanguard",
+    "name": "Vanguard",
+    "parent": "Vanguard",
+    "gccEntity": null,
+    "sector": "BFSI",
+    "indiaLocations": [
+      {
+        "city": "Hyderabad",
+        "cityId": "hyderabad",
+        "detail": "GCC announced Mar 2025; formal opening planned later in 2025",
+        "stage": "announced"
+      }
+    ],
+    "functions": ["Technology & Engineering", "Data, AI & Analytics"],
+    "stage": "announced",
+    "stageNote": "Announced March 2025 after a meeting with Telangana's Chief Minister.",
+    "recordDate": "2025-03-31",
+    "headcount": "About 2,300 over four years",
+    "investment": null,
+    "summary": "Investment manager building technology teams in Hyderabad for AI, data and analytics, and mobile engineering.",
+    "caveats": [
+      "Other outlets' headlines in search listings cite different totals (about 2,400–2,500). Those pages were not opened and the figure is not reconciled with a Vanguard release."
+    ],
+    "evidenceIds": ["EV-021"]
+  },
+  {
+    "id": "amgen",
+    "name": "Amgen",
+    "parent": "Amgen",
+    "gccEntity": null,
+    "sector": "Pharma & Life Sciences",
+    "indiaLocations": [
+      {
+        "city": "Hyderabad",
+        "cityId": "hyderabad",
+        "detail": "Technology and innovation site in HITEC City; slated operational Q4 2024",
+        "stage": "announced"
+      }
+    ],
+    "functions": ["Technology & Engineering", "Data, AI & Analytics"],
+    "stage": "announced",
+    "stageNote": "Announced August 2024; operational status was not verified.",
+    "recordDate": "2024-08-09",
+    "headcount": "Up to 3,000 (planned)",
+    "investment": null,
+    "summary": "Technology and innovation site in Hyderabad that starts with digital capabilities and is planned to extend to AI, data science and life sciences roles.",
+    "caveats": ["Operational status after the planned Q4 2024 start was not checked."],
+    "evidenceIds": ["EV-022"]
+  },
+  {
+    "id": "mcdonalds",
+    "name": "McDonald's",
+    "parent": "McDonald's",
+    "gccEntity": null,
+    "sector": "Consumer & Retail",
+    "indiaLocations": [
+      {
+        "city": "Hyderabad",
+        "cityId": "hyderabad",
+        "detail": "India office and GCC announced Mar 2025",
+        "stage": "announced"
+      }
+    ],
+    "functions": [],
+    "functionsNote": "The source does not specify the GCC's functions.",
+    "stage": "announced",
+    "stageNote": "Announced March 2025 by Telangana's Chief Minister's office after a meeting with McDonald's chairman and CEO.",
+    "recordDate": "2025-03-19",
+    "headcount": "Initial headcount of 2,000 for the India office",
+    "investment": null,
+    "summary": "Plans an India office and GCC in Hyderabad and intends to use Telangana as a skilling zone.",
+    "caveats": [
+      "Details come from the state government's account as reported by a news outlet; no McDonald's statement was retrieved."
+    ],
+    "evidenceIds": ["EV-023"]
+  },
+  {
+    "id": "rolls-royce",
+    "name": "Rolls-Royce",
+    "parent": "Rolls-Royce",
+    "gccEntity": null,
+    "sector": "Aerospace & Defence",
+    "indiaLocations": [
+      {
+        "city": "Bengaluru",
+        "cityId": "bengaluru",
+        "detail": "Manyata Embassy Business Park; 700 seats",
+        "stage": "launched"
+      }
+    ],
+    "functions": [],
+    "functionsNote": "Described as a global capability and innovation centre; specific functions are not listed.",
+    "stage": "launched",
+    "stageNote": "Inaugurated September 2025 by Karnataka's Large and Medium Industries Minister.",
+    "recordDate": "2025-09-18",
+    "headcount": "700 seats; more than 3,000 Rolls-Royce staff in India overall",
+    "investment": null,
+    "summary": "Company's largest global capability and innovation centre, in Bengaluru.",
+    "caveats": ["Single trade-press source."],
+    "evidenceIds": ["EV-024"]
+  },
+  {
+    "id": "depuy-synthes",
+    "name": "DePuy Synthes",
+    "parent": "Johnson & Johnson MedTech",
+    "gccEntity": null,
+    "sector": "Healthcare & MedTech",
+    "indiaLocations": [
+      {
+        "city": "Bengaluru",
+        "cityId": "bengaluru",
+        "detail": "GCC planned; hiring over 18–24 months",
+        "stage": "announced"
+      }
+    ],
+    "functions": [
+      "Technology & Engineering",
+      "Data, AI & Analytics",
+      "Enterprise Applications",
+      "Cybersecurity"
+    ],
+    "stage": "announced",
+    "stageNote": "Reported August 2026 as a GCC being set up.",
+    "recordDate": "2026-08-08",
+    "headcount": "About 500 over 18–24 months, with room to expand",
+    "investment": null,
+    "summary": "Orthopaedics business of Johnson & Johnson MedTech setting up a Bengaluru GCC for software engineering, data and AI, enterprise applications, technology services and cybersecurity.",
+    "caveats": ["Single trade-press source."],
+    "evidenceIds": ["EV-025"]
+  },
+  {
+    "id": "mizuho",
+    "name": "Mizuho",
+    "parent": "Mizuho Financial Group",
+    "gccEntity": "Mizuho Global Services India Pvt. Ltd.",
+    "sector": "BFSI",
+    "indiaLocations": [
+      {
+        "city": "Pune",
+        "cityId": "pune",
+        "detail": "Technology and operations centre launched May 2026",
+        "stage": "launched"
+      }
+    ],
+    "functions": ["Technology & Engineering", "Operations & Shared Services"],
+    "stage": "launched",
+    "stageNote": "Launch announced in the company's own press release dated 20 May 2026.",
+    "recordDate": "2026-05-20",
+    "headcount": null,
+    "investment": null,
+    "summary": "Global capabilities centre arm of Mizuho bringing together technology, operations and business-services staff to support round-the-clock global operations.",
+    "caveats": ["Headcount and investment are not stated in the release."],
+    "evidenceIds": ["EV-026"]
+  },
+  {
+    "id": "magnum-ice-cream",
+    "name": "The Magnum Ice Cream Company",
+    "parent": "The Magnum Ice Cream Company N.V.",
+    "gccEntity": null,
+    "sector": "Consumer & Retail",
+    "indiaLocations": [
+      {
+        "city": "Pune",
+        "cityId": "pune",
+        "detail": "GCC inaugurated Sep 2026",
+        "stage": "launched"
+      }
+    ],
+    "functions": [
+      "Finance & Accounting",
+      "Procurement & Supply Chain",
+      "Marketing",
+      "Data, AI & Analytics"
+    ],
+    "stage": "launched",
+    "stageNote": "Inaugurated September 2026 per the company newsroom.",
+    "recordDate": "2026-09-04",
+    "headcount": null,
+    "investment": null,
+    "summary": "GCC covering finance, procurement, supply chain, marketing and master data, with an innovation focus on AI, automation and analytics.",
+    "caveats": [
+      "The company notes an April 2025 MoU with the Government of Maharashtra; no monetary value is stated.",
+      "No GCC headcount or investment is stated."
+    ],
+    "evidenceIds": ["EV-027"]
+  },
+  {
+    "id": "kla",
+    "name": "KLA Corporation",
+    "parent": "KLA Corporation",
+    "gccEntity": null,
+    "sector": "Semiconductors & Electronics",
+    "indiaLocations": [
+      {
+        "city": "Chennai",
+        "cityId": "chennai",
+        "detail": "R&D and innovation hub; land acquired on the Pallavaram–Thoraipakkam corridor",
+        "stage": "announced"
+      }
+    ],
+    "functions": [
+      "R&D & Product Engineering",
+      "Technology & Engineering",
+      "Data, AI & Analytics"
+    ],
+    "stage": "announced",
+    "stageNote": "Unveiled January 2026 as an R&D and innovation hub; operational status was not verified.",
+    "recordDate": "2026-01-07",
+    "headcount": "Designed for up to 1,300 employees",
+    "investment": "INR 300 crore (as reported Jan 2026)",
+    "summary": "R&D and innovation hub in Chennai working on AI, software development, engineering and product support.",
+    "caveats": [
+      "January 2026 coverage calls it an R&D and innovation hub, not a GCC. A September 2026 article describes land bought for 'a GCC and R&D facility'.",
+      "A Feb 2026 search listing headlines a USD 400 million Chennai campus. It was not opened, so the investment figures are not reconciled."
+    ],
+    "evidenceIds": ["EV-028", "EV-029"]
+  },
+  {
+    "id": "starbucks",
+    "name": "Starbucks",
+    "parent": "Starbucks",
+    "gccEntity": null,
+    "sector": "Consumer & Retail",
+    "indiaLocations": [
+      {
+        "city": "Chennai",
+        "cityId": "chennai",
+        "detail": "First India GCC; MoU signed with the Tamil Nadu government Sep 2026",
+        "stage": "mou-signed"
+      }
+    ],
+    "functions": ["Technology & Engineering"],
+    "functionsNote": "Described as technology jobs; specific functions are not listed.",
+    "stage": "mou-signed",
+    "stageNote": "MoU signed September 2026. This is an agreement to set up a centre, not an operating centre.",
+    "recordDate": "2026-09-21",
+    "headcount": "Over 800 jobs",
+    "investment": null,
+    "summary": "Starbucks' first India GCC, set up independently of its retail joint venture with Tata Consumer Products.",
+    "caveats": ["Investment and specific functions are not stated."],
+    "evidenceIds": ["EV-030"]
+  },
+  {
+    "id": "walgreens",
+    "name": "Walgreens",
+    "parent": "Walgreens",
+    "gccEntity": null,
+    "sector": "Healthcare & MedTech",
+    "indiaLocations": [
+      {
+        "city": "Chennai",
+        "cityId": "chennai",
+        "detail": "GCC planned; focus on technology and business services",
+        "stage": "announced"
+      }
+    ],
+    "functions": ["Technology & Engineering", "Operations & Shared Services"],
+    "stage": "announced",
+    "stageNote": "Reported September 2026.",
+    "recordDate": "2026-09-18",
+    "headcount": "More than 250 jobs expected in the first year",
+    "investment": null,
+    "summary": "Planned GCC in Chennai focused on technology and business services, with further expansion planned in later years.",
+    "caveats": [
+      "The article attributes details to an unnamed statement and does not mention a Tamil Nadu government MoU."
+    ],
+    "evidenceIds": ["EV-031"]
+  }
+]

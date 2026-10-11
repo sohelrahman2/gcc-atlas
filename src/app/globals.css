@@ -1,26 +1,169 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+/*
+ * GCC Atlas design tokens.
+ * Navy sidebar, warm-white canvas, teal for action and verification,
+ * saffron-orange reserved for estimates and the occasional highlight.
+ */
+@theme {
+  --color-navy-950: #08182a;
+  --color-navy-900: #0c2036;
+  --color-navy-800: #12304d;
+  --color-navy-700: #1b4264;
+  --color-navy-300: #8fa6bd;
+  --color-navy-200: #b9c8d8;
+
+  --color-canvas: #fbfaf6;
+  --color-paper: #ffffff;
+  --color-line: #e6e2d8;
+  --color-line-strong: #d3cdbf;
+  --color-wash: #f4f1e9;
+
+  --color-ink: #13202d;
+  --color-ink-soft: #33414f;
+  --color-muted: #5b6874;
+
+  --color-teal-50: #edf8f6;
+  --color-teal-100: #d5efec;
+  --color-teal-200: #a9dcd6;
+  --color-teal-500: #159b92;
+  --color-teal-600: #0e857e;
+  --color-teal-700: #0b6c67;
+  --color-teal-800: #0a5551;
+
+  --color-saffron-50: #fdf3e7;
+  --color-saffron-100: #fbe3c8;
+  --color-saffron-500: #e5822b;
+  --color-saffron-700: #a8570f;
+
+  --color-alert-50: #fbecec;
+  --color-alert-700: #9b2c2c;
+
+  --font-sans: "Instrument Sans Variable", ui-sans-serif, system-ui, -apple-system,
+    "Segoe UI", Roboto, sans-serif;
+  --font-display: "Bricolage Grotesque Variable", "Instrument Sans Variable",
+    ui-sans-serif, system-ui, sans-serif;
+
+  --radius-panel: 8px;
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+html {
+  background: var(--color-canvas);
+  color: var(--color-ink);
+  font-family: var(--font-sans);
+  -webkit-text-size-adjust: 100%;
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  min-height: 100dvh;
+  background: var(--color-canvas);
+  color: var(--color-ink);
+  font-size: 15px;
+  line-height: 1.55;
+  font-feature-settings: "ss01", "cv11";
+  text-rendering: optimizeLegibility;
+}
+
+h1,
+h2,
+h3 {
+  font-family: var(--font-display);
+  letter-spacing: -0.015em;
+  color: var(--color-ink);
+}
+
+.tnum {
+  font-variant-numeric: tabular-nums lining-nums;
+}
+
+/* Visible keyboard focus everywhere. */
+:focus-visible {
+  outline: 2px solid var(--color-teal-600);
+  outline-offset: 2px;
+  border-radius: 4px;
+}
+
+/* Selection */
+::selection {
+  background: var(--color-teal-100);
+  color: var(--color-ink);
+}
+
+/* Inline text links used for citations and sources. */
+.link {
+  color: var(--color-teal-700);
+  text-decoration: underline;
+  text-decoration-color: var(--color-teal-200);
+  text-underline-offset: 3px;
+  text-decoration-thickness: 1.5px;
+  transition: text-decoration-color 120ms ease, color 120ms ease;
+}
+.link:hover {
+  color: var(--color-teal-800);
+  text-decoration-color: var(--color-teal-600);
+}
+
+/* Skeleton shimmer (loading states). */
+@keyframes atlas-shimmer {
+  0% {
+    background-position: -200% 0;
+  }
+  100% {
+    background-position: 200% 0;
+  }
+}
+.skeleton {
+  background: linear-gradient(
+    90deg,
+    var(--color-wash) 25%,
+    #ebe7dc 37%,
+    var(--color-wash) 63%
+  );
+  background-size: 200% 100%;
+  animation: atlas-shimmer 1.6s ease-in-out infinite;
+  border-radius: 6px;
+}
+
+/* Typing indicator for the assistant. */
+@keyframes atlas-pulse {
+  0%,
+  80%,
+  100% {
+    opacity: 0.25;
+  }
+  40% {
+    opacity: 1;
+  }
+}
+.dot-pulse span {
+  display: inline-block;
+  width: 6px;
+  height: 6px;
+  margin-right: 4px;
+  border-radius: 50%;
+  background: var(--color-teal-600);
+  animation: atlas-pulse 1.2s infinite;
+}
+.dot-pulse span:nth-child(2) {
+  animation-delay: 0.15s;
+}
+.dot-pulse span:nth-child(3) {
+  animation-delay: 0.3s;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* Scrollbars on dark sidebar and wide tables stay quiet. */
+.scroll-thin {
+  scrollbar-width: thin;
+  scrollbar-color: var(--color-line-strong) transparent;
 }

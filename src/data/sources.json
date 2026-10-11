@@ -1,0 +1,229 @@
+[
+  {
+    "id": "SRC-ZINNOV",
+    "title": "Zinnov-nasscom India GCC Landscape Report 2026",
+    "url": "https://zinnov.com/centers-of-excellence/zinnov-nasscom-india-gcc-landscape-2026-report/",
+    "publisher": "Zinnov (co-published with nasscom)",
+    "sourceType": "research-report",
+    "publishedDate": null,
+    "publishedDateNote": "The page does not state a publication date; it says its data is as of March 2026.",
+    "lastVerified": "2026-10-11",
+    "reliabilityNote": "Primary publisher of the headline ecosystem metrics. Page shows placeholder counters; figures were read from the page body text."
+  },
+  {
+    "id": "SRC-YOURSTORY",
+    "title": "India has over 2,000 GCCs; revenue nears $100B",
+    "url": "https://yourstory.com/enterprise-story/2026/05/gccs-number-touch-2117-in-india-revenue-just-short-of-100-billion",
+    "publisher": "YourStory",
+    "sourceType": "news",
+    "publishedDate": "2026-05-06",
+    "lastVerified": "2026-10-11",
+    "reliabilityNote": "Independent news report citing the nasscom–Zinnov report; corroborates the Zinnov page."
+  },
+  {
+    "id": "SRC-FLEXIPLE",
+    "title": "India GCC Statistics 2026: Count, Workforce, Revenue",
+    "url": "https://flexiple.com/gcc/statistics",
+    "publisher": "Flexiple",
+    "sourceType": "aggregator",
+    "publishedDate": null,
+    "publishedDateNote": "No publication date stated; the page labels its own data as of Aug 2026.",
+    "lastVerified": "2026-10-11",
+    "reliabilityNote": "Secondary compilation. It relays figures from JLL India, Colliers India, Government of Karnataka and the Telangana Socio Economic Outlook 2026, plus Flexiple's own tracked-professional counts."
+  },
+  {
+    "id": "SRC-GREATANDHRA-Q3",
+    "title": "Hyderabad Tops India's Office Market in Q3, Driven by GCC Boom",
+    "url": "https://www.greatandhra.com/politics/telangana-news/hyderabad-tops-indias-office-market-in-q3-driven-by-gcc-boom/",
+    "publisher": "Great Andhra",
+    "sourceType": "news",
+    "publishedDate": "2026-10-02",
+    "lastVerified": "2026-10-11",
+    "reliabilityNote": "News article relaying CBRE Q3 2026 data and a Colliers comparison. The original CBRE release was not opened, so figures are treated as estimated."
+  },
+  {
+    "id": "SRC-BS-Q2",
+    "title": "India's office market posts record quarterly leasing on GCC, flex demand: CBRE",
+    "url": "https://www.business-standard.com/industry/news/india-s-office-mkt-posts-record-quarterly-leasing-on-gcc-flex-demand-cbre-126070600781_1.html",
+    "publisher": "Business Standard",
+    "sourceType": "news",
+    "publishedDate": "2026-07-06",
+    "lastVerified": "2026-10-11",
+    "reliabilityNote": "News article relaying CBRE Q2 2026 data. The original CBRE release was not opened."
+  },
+  {
+    "id": "SRC-KHAITAN-KA",
+    "title": "Karnataka's Final GCC Policy Launched",
+    "url": "https://khaitanco.com/thought-leadership/Karnatakas-Final-GCC-Policy-Launched",
+    "publisher": "Khaitan & Co",
+    "sourceType": "law-firm",
+    "publishedDate": "2024-12-02",
+    "lastVerified": "2026-10-11",
+    "reliabilityNote": "Law-firm client alert summarising the final Karnataka GCC Policy 2024–29. An official policy document was not located (the Karnataka IT dept site blocks automated access), so incentive details remain unverified."
+  },
+  {
+    "id": "SRC-MH-GR",
+    "title": "Maharashtra Global Capability Centre (GCC) Policy – 2025 (Government Resolution, 3 Nov 2025)",
+    "url": "https://midc.maharashtra.gov.in/wp-content/uploads/2026/07/Maharashtra-Global-Capability-Centre-GCC-Policy-%e2%80%93-2025.pdf",
+    "publisher": "Government of Maharashtra – Industries, Energy, Labour & Mining Dept (hosted by MIDC)",
+    "sourceType": "official-government",
+    "publishedDate": "2025-11-03",
+    "publishedDateNote": "GR number GCC-2025/P.K. 114/Udyog-2, dated 3 November 2025.",
+    "lastVerified": "2026-10-11",
+    "reliabilityNote": "Official policy text on a maharashtra.gov.in domain. Strongest incentive source in this dataset."
+  },
+  {
+    "id": "SRC-SIASAT-TG",
+    "title": "New Telangana GCC policy to focus on AI, space, semiconductors",
+    "url": "https://www.siasat.com/new-telangana-gcc-policy-to-focus-on-ai-space-semiconductors-3543873/",
+    "publisher": "Siasat Daily",
+    "sourceType": "news",
+    "publishedDate": "2026-09-17",
+    "lastVerified": "2026-10-11",
+    "reliabilityNote": "News report citing The Times of India and officials; describes a draft policy, not an issued one."
+  },
+  {
+    "id": "SRC-DTNEXT-CORRIDOR",
+    "title": "TN's 3-corridor formula to make Chennai GCC hub",
+    "url": "https://www.dtnext.in/news/business/tns-3-corridor-formula-to-make-chennai-gcc-hub",
+    "publisher": "DT Next",
+    "sourceType": "news",
+    "publishedDate": "2026-09-07",
+    "publishedDateNote": "Page shows an 'updated' timestamp of 7 Sep 2026; the original publication date is not stated.",
+    "lastVerified": "2026-10-11",
+    "reliabilityNote": "News report. The programme was announced by the Industries Minister in a social-media post; formal adoption is not stated."
+  },
+  {
+    "id": "SRC-DTNEXT-BUDGET",
+    "title": "TN Budget: From payroll subsidies to space to IT parks, the big budgetary push for industries",
+    "url": "https://www.dtnext.in/amp/news/tamilnadu/tn-budget-from-payroll-subsidies-to-space-to-it-parks-the-big-budgetary-push-for-industries-768932",
+    "publisher": "DT Next",
+    "sourceType": "news",
+    "publishedDate": "2024-02-19",
+    "publishedDateNote": "Page shows an 'updated' timestamp of 19 Feb 2024.",
+    "lastVerified": "2026-10-11",
+    "reliabilityNote": "News coverage of the Tamil Nadu 2024–25 budget. A government order with operating rules was not located."
+  },
+  {
+    "id": "SRC-GUIDANCE-TN",
+    "title": "Tamil Nadu Guidance – Policy support & ease of business",
+    "url": "https://www.investingintamilnadu.com/innovation-dna/policy-support-ease-of-business",
+    "publisher": "Guidance Tamil Nadu",
+    "sourceType": "government-agency",
+    "publishedDate": null,
+    "publishedDateNote": "No date stated on the page.",
+    "lastVerified": "2026-10-11",
+    "reliabilityNote": "Site of the state's investment-promotion agency (not a .gov.in domain). Confirms a payroll incentive exists but gives no amounts."
+  },
+  {
+    "id": "SRC-FIERCE-LILLY",
+    "title": "Lilly doubles down on its presence in India with new capability center, plans to hire 1,000-plus",
+    "url": "https://www.fiercepharma.com/pharma/eli-lilly-doubles-down-its-presence-india-new-capability-center",
+    "publisher": "Fierce Pharma",
+    "sourceType": "trade-press",
+    "publishedDate": "2025-01-10",
+    "lastVerified": "2026-10-11",
+    "reliabilityNote": "Established trade outlet reporting a Lilly company release."
+  },
+  {
+    "id": "SRC-DECCAN-VANGUARD",
+    "title": "Vanguard to set up GCC in Hyderabad",
+    "url": "https://deccanchronicle.com/southern-states/telangana/vanguard-to-establish-first-india-gcc-in-hyderabad-1870017",
+    "publisher": "Deccan Chronicle",
+    "sourceType": "news",
+    "publishedDate": "2025-03-31",
+    "lastVerified": "2026-10-11",
+    "reliabilityNote": "News report of Vanguard's announcement after a meeting with the Telangana Chief Minister."
+  },
+  {
+    "id": "SRC-BIOSPECTRUM-AMGEN",
+    "title": "Amgen announces plans to open new technology and innovation site in Hyderabad",
+    "url": "https://biospectrumindia.com/news/73/25012/amgen-announces-plans-to-open-new-technology-and-innovation-site-in-hyderabad.html",
+    "publisher": "BioSpectrum India",
+    "sourceType": "trade-press",
+    "publishedDate": "2024-08-09",
+    "lastVerified": "2026-10-11",
+    "reliabilityNote": "Established trade outlet reporting Amgen's announcement."
+  },
+  {
+    "id": "SRC-NEWSMINUTE-MCD",
+    "title": "McDonald's to set up India office, GCC in Hyderabad",
+    "url": "https://www.thenewsminute.com/telangana/mcdonalds-to-set-up-india-office-gcc-in-hyderabad",
+    "publisher": "The News Minute",
+    "sourceType": "news",
+    "publishedDate": "2025-03-19",
+    "lastVerified": "2026-10-11",
+    "reliabilityNote": "News report attributing details to the Telangana Chief Minister's office."
+  },
+  {
+    "id": "SRC-PEOPLESBOARD-RR",
+    "title": "Rolls-Royce Opens Its Largest GCC in Bengaluru",
+    "url": "https://www.thepeoplesboard.com/news/rolls-royce-opens-its-largest-gcc-in-bengaluru/",
+    "publisher": "The People's Board",
+    "sourceType": "trade-press",
+    "publishedDate": "2025-09-18",
+    "lastVerified": "2026-10-11",
+    "reliabilityNote": "Trade outlet; quotes Karnataka's Large and Medium Industries Minister who inaugurated the centre."
+  },
+  {
+    "id": "SRC-IPP-DEPUY",
+    "title": "DePuy Synthes to set up Bengaluru GCC, hire 500 professionals",
+    "url": "https://www.indianpharmapost.com/medical-device/lite/depuy-synthes-to-set-up-bengaluru-gcc-hire-500-professionals-21289",
+    "publisher": "Indian Pharma Post",
+    "sourceType": "trade-press",
+    "publishedDate": "2026-08-08",
+    "lastVerified": "2026-10-11",
+    "reliabilityNote": "Trade outlet quoting DePuy Synthes's worldwide president."
+  },
+  {
+    "id": "SRC-MIZUHO",
+    "title": "Mizuho Financial Group launches strategic technology and operations center in Pune",
+    "url": "https://www.mizuhogroup.com/americas-news/mizuho-financial-group-launches-strategic-technology-and-operations-center-in-pune",
+    "publisher": "Mizuho Financial Group",
+    "sourceType": "company-primary",
+    "publishedDate": "2026-05-21",
+    "publishedDateNote": "Press release dateline is 20 May 2026; the page is dated 21 May 2026.",
+    "lastVerified": "2026-10-11",
+    "reliabilityNote": "Company's own press release."
+  },
+  {
+    "id": "SRC-MAGNUM",
+    "title": "The Magnum Ice Cream Company inaugurates new Global Capability Centre in Pune",
+    "url": "https://news.magnumicecream.com/the-magnum-ice-cream-company-inaugurates-new-global-capability-centre-in-pune/",
+    "publisher": "The Magnum Ice Cream Company",
+    "sourceType": "company-primary",
+    "publishedDate": "2026-09-04",
+    "lastVerified": "2026-10-11",
+    "reliabilityNote": "Company newsroom."
+  },
+  {
+    "id": "SRC-VOICENDATA-KLA",
+    "title": "KLA strengthens India operations with Chennai R&D facility",
+    "url": "https://www.voicendata.com/communication-equipment/kla-strengthens-india-operations-with-chennai-semiconductor-rd-facility-10978819",
+    "publisher": "Voice&Data",
+    "sourceType": "trade-press",
+    "publishedDate": "2026-01-07",
+    "lastVerified": "2026-10-11",
+    "reliabilityNote": "Trade outlet. Describes an R&D and innovation hub; does not use the term GCC."
+  },
+  {
+    "id": "SRC-DECCAN-STARBUCKS",
+    "title": "Starbucks to Open Global Capability Centre in Chennai",
+    "url": "https://www.deccanchronicle.com/southern-states/tamil-nadu/starbucks-to-open-global-capability-centre-in-chennai-1989247",
+    "publisher": "Deccan Chronicle (ANI)",
+    "sourceType": "news",
+    "publishedDate": "2026-09-21",
+    "lastVerified": "2026-10-11",
+    "reliabilityNote": "Wire report of an MoU signed with the Tamil Nadu government."
+  },
+  {
+    "id": "SRC-MEDDIALOGUES-WALGREENS",
+    "title": "US Pharmacy Giant Walgreens to Set Up GCC in Chennai, Plans 250+ Jobs in First Year",
+    "url": "https://medicaldialogues.in/amp/news/industry/pharma/us-pharmacy-giant-walgreens-to-set-up-gcc-in-chennai-plans-250-jobs-in-first-year-179526",
+    "publisher": "Medical Dialogues (Reuters)",
+    "sourceType": "news",
+    "publishedDate": "2026-09-18",
+    "lastVerified": "2026-10-11",
+    "reliabilityNote": "Reuters-sourced report; attributes details to an unnamed statement."
+  }
+]

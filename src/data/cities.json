@@ -1,0 +1,486 @@
+{
+  "criteria": [
+    {
+      "id": "talent",
+      "label": "Talent ecosystem",
+      "description": "Size and depth of the available workforce and GCC-specific hiring activity."
+    },
+    {
+      "id": "operating-costs",
+      "label": "Operating costs",
+      "description": "Rents, fully loaded compensation and utilities for a GCC seat."
+    },
+    {
+      "id": "infrastructure",
+      "label": "Infrastructure",
+      "description": "Office stock and shared facilities. Office-market data is the only proxy sourced here."
+    },
+    {
+      "id": "industry-depth",
+      "label": "Industry depth",
+      "description": "Existing GCC concentration and sector clustering."
+    },
+    {
+      "id": "incentives",
+      "label": "Government incentives",
+      "description": "State-level policy support for new or expanding GCCs."
+    }
+  ],
+  "cities": [
+    {
+      "id": "bengaluru",
+      "name": "Bengaluru",
+      "state": "Karnataka",
+      "criteria": {
+        "talent": {
+          "availability": "partial",
+          "datapoints": [
+            {
+              "label": "Tracked professionals (Flexiple platform data)",
+              "value": "7.1M+",
+              "evidenceId": "EV-044",
+              "status": "estimated",
+              "period": "Aug 2026",
+              "note": "Platform dataset, not a labour-market statistic."
+            },
+            {
+              "label": "Karnataka GCC employees (state level)",
+              "value": "Over 600,000, about 35% of India's GCC workforce",
+              "evidenceId": "EV-041",
+              "status": "estimated",
+              "period": "2026",
+              "note": "State-level, not city-level."
+            }
+          ],
+          "gapNote": "No city-level GCC workforce, graduate output, attrition or salary data with a citable source.",
+          "validationNeeded": "City-level GCC headcount (for example a Zinnov city cut), graduate pipeline by discipline, attrition and compensation benchmarks."
+        },
+        "operating-costs": {
+          "availability": "unavailable",
+          "datapoints": [],
+          "gapNote": "No reliable, comparable city-level cost data (rent per sq ft, fully loaded salaries, utilities) was found from sources Atlas can cite. Press-reported leasing figures measure volume, not cost.",
+          "validationNeeded": "Grade-A rent by micro-market from CBRE, JLL or Colliers quarterly reports; role-wise compensation benchmarks; state-specific utility and tax costs."
+        },
+        "infrastructure": {
+          "availability": "partial",
+          "datapoints": [
+            {
+              "label": "Office absorption (CBRE)",
+              "value": "About 4.9M sq ft",
+              "evidenceId": "EV-047",
+              "status": "estimated",
+              "period": "Q3 2026"
+            },
+            {
+              "label": "New office supply, completions (CBRE)",
+              "value": "About 3.9M sq ft",
+              "evidenceId": "EV-047",
+              "status": "estimated",
+              "period": "Q3 2026"
+            },
+            {
+              "label": "Grade-A gross absorption (Colliers)",
+              "value": "5.2M sq ft",
+              "evidenceId": "EV-048",
+              "status": "estimated",
+              "period": "Q3 2026",
+              "note": "Different methodology from CBRE; the two firms order Bengaluru and Hyderabad differently."
+            }
+          ],
+          "gapNote": "Only office-market volumes are sourced. No connectivity, power reliability or transit data.",
+          "validationNeeded": "Airport and metro connectivity, power and water reliability, and micro-market vacancy from official or broker sources."
+        },
+        "industry-depth": {
+          "availability": "partial",
+          "datapoints": [
+            {
+              "label": "GCC units and share of India's GCC market (JLL India)",
+              "value": "Over 900 units; 34–39%",
+              "evidenceId": "EV-040",
+              "status": "estimated",
+              "period": "Feb 2026"
+            },
+            {
+              "label": "Share of India's GCC office leasing (CBRE)",
+              "value": "28%",
+              "evidenceId": "EV-008",
+              "status": "estimated",
+              "period": "Q3 2026"
+            }
+          ],
+          "gapNote": "No sourced breakdown of GCCs by sector or function for any city, so sector clustering cannot be compared.",
+          "validationNeeded": "City-by-sector and city-by-function GCC counts from the Zinnov or NASSCOM city cuts."
+        },
+        "incentives": {
+          "availability": "partial",
+          "datapoints": [
+            {
+              "label": "Policy and timing",
+              "value": "Karnataka GCC Policy 2024–29, final version released 19 Nov 2024",
+              "evidenceId": "EV-063",
+              "status": "unverified"
+            },
+            {
+              "label": "Innovation labs and CoEs in Bengaluru Urban",
+              "value": "INR 5 crore funding; capped at two projects a year",
+              "evidenceId": "EV-063",
+              "status": "unverified"
+            },
+            {
+              "label": "Internet cost reimbursement",
+              "value": "Up to INR 12 lakh a year for the first three years",
+              "evidenceId": "EV-063",
+              "status": "unverified"
+            },
+            {
+              "label": "Facility and lab usage costs",
+              "value": "100% reimbursed after six months of use",
+              "evidenceId": "EV-063",
+              "status": "unverified"
+            },
+            {
+              "label": "Statewide policy targets",
+              "value": "500 new GCCs; 350,000 jobs; USD 50B output",
+              "evidenceId": "EV-064",
+              "status": "unverified",
+              "note": "The jobs figure conflicts across listings."
+            }
+          ],
+          "gapNote": "From a law-firm summary only. Some items (electricity duty, recruitment support) are framed for 'Beyond Bengaluru' locations, so the Bengaluru Urban package may be narrower.",
+          "validationNeeded": "Official policy text and operative guidelines from the Karnataka Department of Electronics, IT and BT; eligibility thresholds and caps."
+        }
+      }
+    },
+    {
+      "id": "hyderabad",
+      "name": "Hyderabad",
+      "state": "Telangana",
+      "criteria": {
+        "talent": {
+          "availability": "partial",
+          "datapoints": [
+            {
+              "label": "Tracked professionals (Flexiple platform data)",
+              "value": "5.3M+",
+              "evidenceId": "EV-044",
+              "status": "estimated",
+              "period": "Aug 2026",
+              "note": "Platform dataset, not a labour-market statistic."
+            }
+          ],
+          "gapNote": "No city-level GCC workforce, graduate output, attrition or salary data with a citable source.",
+          "validationNeeded": "City-level GCC headcount, graduate pipeline by discipline, attrition and compensation benchmarks."
+        },
+        "operating-costs": {
+          "availability": "unavailable",
+          "datapoints": [],
+          "gapNote": "No reliable, comparable city-level cost data (rent per sq ft, fully loaded salaries, utilities) was found from sources Atlas can cite. Press-reported leasing figures measure volume, not cost.",
+          "validationNeeded": "Grade-A rent by micro-market from CBRE, JLL or Colliers quarterly reports; role-wise compensation benchmarks; state-specific utility and tax costs."
+        },
+        "infrastructure": {
+          "availability": "partial",
+          "datapoints": [
+            {
+              "label": "Office absorption (CBRE)",
+              "value": "About 5.3M sq ft",
+              "evidenceId": "EV-047",
+              "status": "estimated",
+              "period": "Q3 2026"
+            },
+            {
+              "label": "New office supply, completions (CBRE)",
+              "value": "About 10.2M sq ft",
+              "evidenceId": "EV-047",
+              "status": "estimated",
+              "period": "Q3 2026",
+              "note": "The largest of the cities the source cites."
+            },
+            {
+              "label": "Grade-A gross absorption (Colliers)",
+              "value": "2.2M sq ft",
+              "evidenceId": "EV-048",
+              "status": "estimated",
+              "period": "Q3 2026",
+              "note": "Different methodology from CBRE; the two firms order Bengaluru and Hyderabad differently."
+            }
+          ],
+          "gapNote": "Only office-market volumes are sourced. No connectivity, power reliability or transit data.",
+          "validationNeeded": "Airport and metro connectivity, power and water reliability, and micro-market vacancy from official or broker sources."
+        },
+        "industry-depth": {
+          "availability": "partial",
+          "datapoints": [
+            {
+              "label": "Share of India's GCCs",
+              "value": "About 20%",
+              "evidenceId": "EV-042",
+              "status": "estimated",
+              "period": "2025–26",
+              "note": "Attributed to the Telangana Socio Economic Outlook 2026."
+            },
+            {
+              "label": "Share of India's GCC office demand (JLL India)",
+              "value": "20–23%",
+              "evidenceId": "EV-042",
+              "status": "estimated",
+              "period": "2022–2025"
+            },
+            {
+              "label": "New GCCs, 2025 through October",
+              "value": "40, the most of any Indian city",
+              "evidenceId": "EV-042",
+              "status": "estimated"
+            },
+            {
+              "label": "Share of India's GCC office leasing (CBRE)",
+              "value": "37%",
+              "evidenceId": "EV-008",
+              "status": "estimated",
+              "period": "Q3 2026"
+            },
+            {
+              "label": "Telangana GCCs (state level)",
+              "value": "500+; 75 added in 2025–26",
+              "evidenceId": "EV-046",
+              "status": "estimated",
+              "note": "State-level, reported by a news outlet."
+            }
+          ],
+          "gapNote": "No sourced breakdown of GCCs by sector or function for any city. Count-based and leasing-based shares are different measures and should not be compared directly.",
+          "validationNeeded": "City-by-sector and city-by-function GCC counts from the Zinnov or NASSCOM city cuts."
+        },
+        "incentives": {
+          "availability": "partial",
+          "datapoints": [
+            {
+              "label": "GCC-specific policy status",
+              "value": "Being drafted as of 17 Sep 2026 (news report)",
+              "evidenceId": "EV-065",
+              "status": "unverified"
+            },
+            {
+              "label": "Reported draft focus",
+              "value": "Space, semiconductors, AI, quantum, advanced life sciences; steering new centres toward tier-2 towns",
+              "evidenceId": "EV-065",
+              "status": "unverified"
+            }
+          ],
+          "gapNote": "No issued GCC-specific incentive schedule was found and no amounts are published in the source. Existing state ICT and industrial policy incentives were not researched.",
+          "validationNeeded": "Telangana ICT and industrial policy incentives, any notified GCC policy, and single-window terms from official Telangana government documents."
+        }
+      }
+    },
+    {
+      "id": "pune",
+      "name": "Pune",
+      "state": "Maharashtra",
+      "criteria": {
+        "talent": {
+          "availability": "partial",
+          "datapoints": [
+            {
+              "label": "Tracked professionals (Flexiple platform data)",
+              "value": "2.4M+",
+              "evidenceId": "EV-044",
+              "status": "estimated",
+              "period": "Aug 2026",
+              "note": "Platform dataset, not a labour-market statistic."
+            }
+          ],
+          "gapNote": "No city-level GCC workforce, graduate output, attrition or salary data with a citable source.",
+          "validationNeeded": "City-level GCC headcount, graduate pipeline by discipline, attrition and compensation benchmarks."
+        },
+        "operating-costs": {
+          "availability": "unavailable",
+          "datapoints": [],
+          "gapNote": "No reliable, comparable city-level cost data (rent per sq ft, fully loaded salaries, utilities) was found from sources Atlas can cite. Maharashtra's rent and power subsidies are incentives, not cost levels.",
+          "validationNeeded": "Grade-A rent by micro-market from CBRE, JLL or Colliers quarterly reports; role-wise compensation benchmarks; state-specific utility and tax costs."
+        },
+        "infrastructure": {
+          "availability": "partial",
+          "datapoints": [
+            {
+              "label": "New office supply, completions (CBRE)",
+              "value": "About 2.7M sq ft",
+              "evidenceId": "EV-047",
+              "status": "estimated",
+              "period": "Q3 2026"
+            }
+          ],
+          "gapNote": "The source gives no Pune absorption figure, and no connectivity, power or transit data.",
+          "validationNeeded": "Pune office absorption and vacancy, airport and metro connectivity, power and water reliability from official or broker sources."
+        },
+        "industry-depth": {
+          "availability": "partial",
+          "datapoints": [
+            {
+              "label": "Share of national GCC activity (JLL India)",
+              "value": "15–20%",
+              "evidenceId": "EV-043",
+              "status": "estimated",
+              "period": "2022–2025",
+              "note": "'Activity' is not defined in the source."
+            }
+          ],
+          "gapNote": "The Q3 2026 CBRE article describes Pune's share of GCC leasing only as smaller than the cities it lists, with no figure. No sector breakdown is sourced.",
+          "validationNeeded": "Pune GCC count and share of GCC leasing from CBRE, JLL or Zinnov; city-by-sector counts."
+        },
+        "incentives": {
+          "availability": "partial",
+          "datapoints": [
+            {
+              "label": "Policy and validity",
+              "value": "Maharashtra GCC Policy 2025 (GR dated 3 Nov 2025), valid to FY2029–30",
+              "evidenceId": "EV-060",
+              "status": "verified"
+            },
+            {
+              "label": "Pune's zone",
+              "value": "Pune Metropolitan Region is Zone 1",
+              "evidenceId": "EV-062",
+              "status": "verified"
+            },
+            {
+              "label": "Payroll subsidy (Zone 1)",
+              "value": "40% of salary above Rs 1 lakh a month, up to Rs 50,000 per employee for 3 years; capped at 100 employees per GCC a year and Rs 5 crore per company a year",
+              "evidenceId": "EV-062",
+              "status": "verified"
+            },
+            {
+              "label": "Capital subsidy",
+              "value": "20% of eligible investment, capped at Rs 10 crore (small) to Rs 100 crore (very large)",
+              "evidenceId": "EV-061",
+              "status": "verified"
+            },
+            {
+              "label": "Rent subsidy (Zone 1)",
+              "value": "10% for 5 years, capped at Rs 1–4 crore by tier",
+              "evidenceId": "EV-061",
+              "status": "verified"
+            },
+            {
+              "label": "Power tariff subsidy (Zone 1)",
+              "value": "Rs 1 per unit for 5 years",
+              "evidenceId": "EV-061",
+              "status": "verified"
+            },
+            {
+              "label": "Electricity duty",
+              "value": "10-year exemption",
+              "evidenceId": "EV-061",
+              "status": "verified"
+            },
+            {
+              "label": "Interest subsidy",
+              "value": "Not available in Zone 1 (Zone 2 only)",
+              "evidenceId": "EV-062",
+              "status": "verified"
+            }
+          ],
+          "gapNote": "Stamp-duty concession percentages are not specified in the GR; it refers to the MAITS 2023 policy.",
+          "validationNeeded": "Stamp-duty terms under MAITS 2023 and the scheme's operating guidelines for claiming each subsidy."
+        }
+      }
+    },
+    {
+      "id": "chennai",
+      "name": "Chennai",
+      "state": "Tamil Nadu",
+      "criteria": {
+        "talent": {
+          "availability": "partial",
+          "datapoints": [
+            {
+              "label": "Tracked professionals (Flexiple platform data)",
+              "value": "4.1M+",
+              "evidenceId": "EV-044",
+              "status": "estimated",
+              "period": "Aug 2026",
+              "note": "Platform dataset, not a labour-market statistic."
+            }
+          ],
+          "gapNote": "No city-level GCC workforce, graduate output, attrition or salary data with a citable source.",
+          "validationNeeded": "City-level GCC headcount, graduate pipeline by discipline, attrition and compensation benchmarks."
+        },
+        "operating-costs": {
+          "availability": "unavailable",
+          "datapoints": [],
+          "gapNote": "No reliable, comparable city-level cost data (rent per sq ft, fully loaded salaries, utilities) was found from sources Atlas can cite. Press-reported leasing figures measure volume, not cost.",
+          "validationNeeded": "Grade-A rent by micro-market from CBRE, JLL or Colliers quarterly reports; role-wise compensation benchmarks; state-specific utility and tax costs."
+        },
+        "infrastructure": {
+          "availability": "partial",
+          "datapoints": [
+            {
+              "label": "GCC share of office leasing (Cushman & Wakefield)",
+              "value": "55%",
+              "evidenceId": "EV-049",
+              "status": "estimated",
+              "period": "Q1 2026"
+            },
+            {
+              "label": "Growth in GCC leasing, 2025 vs 2021 (Colliers)",
+              "value": "More than four-fold",
+              "evidenceId": "EV-049",
+              "status": "estimated"
+            },
+            {
+              "label": "GCC Corridor and Development Programme",
+              "value": "Three corridors with enhanced FSI and shared infrastructure, announced Sep 2026",
+              "evidenceId": "EV-050",
+              "status": "unverified"
+            }
+          ],
+          "gapNote": "No Chennai office absorption or supply figure in the sources opened, so volumes cannot be compared with the other cities.",
+          "validationNeeded": "Chennai office absorption and supply, corridor programme documents, airport and metro connectivity, power and water reliability."
+        },
+        "industry-depth": {
+          "availability": "partial",
+          "datapoints": [
+            {
+              "label": "Share of India's GCC office leasing (CBRE)",
+              "value": "11%",
+              "evidenceId": "EV-008",
+              "status": "estimated",
+              "period": "Q3 2026"
+            },
+            {
+              "label": "City-level GCC count",
+              "value": "Not verifiable",
+              "evidenceId": "EV-045",
+              "status": "unverified",
+              "note": "The only available source cites no underlying data."
+            }
+          ],
+          "gapNote": "No verified GCC count and no sector breakdown for Chennai.",
+          "validationNeeded": "Chennai GCC count and sector mix from Zinnov, NASSCOM or the state investment agency."
+        },
+        "incentives": {
+          "availability": "partial",
+          "datapoints": [
+            {
+              "label": "Payroll subsidy (2024–25 budget announcement)",
+              "value": "30% in year 1, 20% in year 2, 10% in year 3, for jobs above Rs 1 lakh a month",
+              "evidenceId": "EV-066",
+              "status": "unverified"
+            },
+            {
+              "label": "State agency listing",
+              "value": "A Payroll Incentive Scheme for GCC anchor jobs exists; amounts not stated",
+              "evidenceId": "EV-067",
+              "status": "verified"
+            },
+            {
+              "label": "Scheme duration and target (secondary)",
+              "value": "To March 2027; aimed at 50 GCCs",
+              "evidenceId": "EV-068",
+              "status": "unverified"
+            }
+          ],
+          "gapNote": "Rates come from budget coverage, not an operating government order. The corridor programme (see Infrastructure) is also unverified.",
+          "validationNeeded": "The government order operationalising the payroll scheme, eligibility, caps and claim process from official Tamil Nadu documents."
+        }
+      }
+    }
+  ]
+}

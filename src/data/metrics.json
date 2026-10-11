@@ -1,0 +1,116 @@
+{
+  "asOf": "2026-10-11",
+  "headline": [
+    {
+      "id": "total-gccs",
+      "label": "GCCs in India",
+      "value": "2,117",
+      "period": "FY2026",
+      "evidenceIds": ["EV-001", "EV-002"],
+      "status": "verified",
+      "note": "Spanning 3,728 GCC units."
+    },
+    {
+      "id": "gcc-units",
+      "label": "GCC units",
+      "value": "3,728",
+      "period": "FY2026",
+      "evidenceIds": ["EV-001", "EV-004"],
+      "status": "verified",
+      "note": "Individual centres across the 2,117 parent GCCs."
+    },
+    {
+      "id": "employees",
+      "label": "GCC employees",
+      "value": "2.36M",
+      "period": "FY2026",
+      "evidenceIds": ["EV-003", "EV-002", "EV-004"],
+      "status": "verified",
+      "note": "Flexiple reports about 1.9M in FY2024. Single secondary source, not traced to Zinnov."
+    },
+    {
+      "id": "revenue",
+      "label": "GCC market revenue",
+      "value": "$98.4B",
+      "period": "FY2026",
+      "evidenceIds": ["EV-003", "EV-002", "EV-004"],
+      "status": "verified",
+      "note": "Flexiple reports $64.6B in FY2024. Single secondary source, not traced to Zinnov."
+    },
+    {
+      "id": "growth",
+      "label": "Growth since FY2021",
+      "value": "+32%",
+      "period": "FY2021 to FY2026",
+      "evidenceIds": ["EV-001", "EV-002"],
+      "status": "verified",
+      "note": "As reported on the Zinnov page, alongside the GCC count."
+    },
+    {
+      "id": "ai-gccs",
+      "label": "GCCs with embedded AI/ML",
+      "value": "1,200+",
+      "period": "FY2026",
+      "evidenceIds": ["EV-007"],
+      "status": "verified",
+      "note": "Single source; over 250 dedicated CoEs also reported."
+    }
+  ],
+  "cityShare": {
+    "id": "city-share",
+    "title": "Share of India's GCC office leasing by city",
+    "subtitle": "Q3 2026 (Jul–Sep), CBRE data as reported by Great Andhra",
+    "unit": "% of GCC leasing",
+    "items": [
+      { "label": "Hyderabad", "value": 37 },
+      { "label": "Bengaluru", "value": 28 },
+      { "label": "Chennai", "value": 11 },
+      { "label": "Delhi-NCR", "value": 11 },
+      { "label": "Pune, Mumbai & others", "value": 13, "derived": true }
+    ],
+    "evidenceIds": ["EV-008"],
+    "status": "estimated",
+    "caveat": "Leasing share is a real-estate measure, not a count of GCCs or people. The last bar is derived as 100 minus the four reported shares; the source gives no Pune figure. This is one quarter, and Colliers' different methodology orders Bengaluru and Hyderabad the other way."
+  },
+  "maturity": {
+    "id": "maturity",
+    "title": "GCC maturity mix",
+    "subtitle": "Zinnov FY2026 landscape, share of GCCs by maturity stage",
+    "unit": "% of GCCs",
+    "items": [
+      { "label": "Outpost", "value": 13 },
+      { "label": "Satellite", "value": 43 },
+      { "label": "Portfolio Hub", "value": 39 },
+      { "label": "Transformation Hub", "value": 5 }
+    ],
+    "evidenceIds": ["EV-006"],
+    "status": "verified",
+    "caveat": "Single source (the report's publisher). Stage definitions are Zinnov's own and are not reproduced here."
+  },
+  "segmentation": [
+    {
+      "id": "seg-g2000",
+      "label": "Forbes Global 2000 GCCs",
+      "value": "506",
+      "period": "FY2026",
+      "evidenceIds": ["EV-005"],
+      "status": "verified"
+    },
+    {
+      "id": "seg-mid",
+      "label": "Mid-market GCCs",
+      "value": "583",
+      "period": "FY2026",
+      "evidenceIds": ["EV-005"],
+      "status": "verified"
+    },
+    {
+      "id": "seg-pe",
+      "label": "PE-backed GCCs",
+      "value": "504",
+      "period": "FY2026",
+      "evidenceIds": ["EV-005"],
+      "status": "verified"
+    }
+  ]
+}
